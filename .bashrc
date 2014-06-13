@@ -218,7 +218,10 @@ if [ -s ~/.nvm/nvm.sh ]; then
     source ~/.nvm/nvm.sh
     nvm use v0.10.12 &> /dev/null # silence nvm use; needed for rsync
 fi
-
+# 2.8) processing
+# http://download.processing.org/processing-2.2.1-linux64.tgz
+export PATH=$HOME/processing-2.2.1:$PATH
+ 
 ## ------------------------------
 ## -- 3) User-customized code  --
 ## ------------------------------
